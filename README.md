@@ -1,7 +1,5 @@
 # ngx-animates
 
-[![npm](https://img.shields.io/npm/v/ngx-animates.svg)](https://www.npmjs.com/package/ngx-animates)
-[![licence](https://img.shields.io/github/license/mygu/ngx-animates.svg)](https://www.npmjs.com/package/ngx-animates)
 
 This library is thanks to [mygu](https://github.com/mygu/ngx-animate) 
 
