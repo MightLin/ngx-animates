@@ -29,7 +29,7 @@ export const bounceIn = animation(
 function bounceInDirection(axis: 'x' | 'y') {
   const translate3d = transformAxis(axis, 'translate3d');
 
-  return function(steps) {
+  return function (steps: any) {
     const params = Object.assign({ timing: DEFAULT_TIMING, delay: 0 }, steps);
 
     return animation(
@@ -104,7 +104,7 @@ function bounceOutDirection(axis: 'x' | 'y') {
   const translate3d = transformAxis(axis, 'translate3d');
 
   if (axis === 'y') {
-    return function(steps) {
+    return function (steps: any) {
       const params = Object.assign({ timing: DEFAULT_TIMING, delay: 0 }, steps);
 
       return animation(
@@ -122,7 +122,7 @@ function bounceOutDirection(axis: 'x' | 'y') {
     };
   }
 
-  return function(steps) {
+  return function (steps: any) {
     const params = Object.assign({ timing: DEFAULT_TIMING, delay: 0 }, steps);
 
     return animation(

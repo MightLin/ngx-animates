@@ -8,10 +8,10 @@ import {
 import { DEFAULT_TIMING, transformAxis } from './utils';
 
 function fade(fromOpacity: number, toOpacity: number) {
-  return function(axis: 'x' | 'y') {
+  return function (axis: 'x' | 'y') {
     const translate3d = transformAxis(axis, 'translate3d');
 
-    return function(steps) {
+    return function (steps: any) {
       const params = Object.assign(
         {
           timing: DEFAULT_TIMING,

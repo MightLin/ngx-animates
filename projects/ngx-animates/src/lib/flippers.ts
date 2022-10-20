@@ -43,7 +43,7 @@ export const flip = animation(
   }
 );
 
-function flipIn(rotateX, rotateY) {
+function flipIn(rotateX: 1 | 0, rotateY: 1 | 0) {
   const params = { timing: DEFAULT_TIMING, delay: 0, rotateX, rotateY };
 
   return animation(
@@ -88,7 +88,7 @@ function flipIn(rotateX, rotateY) {
 export const flipInX = flipIn(1, 0);
 export const flipInY = flipIn(0, 1);
 
-function flipOut(rotateX, rotateY) {
+function flipOut(rotateX: 1 | 0, rotateY: 1 | 0) {
   const params = { timing: DEFAULT_TIMING, delay: 0, rotateX, rotateY };
 
   return animation(

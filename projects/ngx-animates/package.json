@@ -2,10 +2,27 @@
   "name": "ngx-animates",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "^14.0.0",
-    "@angular/core": "^14.0.0"
+    "@angular/common": ">=13.0.0",
+    "@angular/core": ">=13.0.0",
+    "@angular/animations": ">=13.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
-  }
+  },
+  "keywords": [
+    "ngx",
+    "animate",
+    "animate.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MightLin/ngx-animates.git"
+  },
+  "author": "MightLin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MightLin/ngx-animates/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/MightLin/ngx-animates"
 }

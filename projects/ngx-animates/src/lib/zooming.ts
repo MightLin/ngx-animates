@@ -33,7 +33,7 @@ export const zoomIn = animation(
 function zoomInDirection(axis: 'x' | 'y') {
   const translate3d = transformAxis(axis, 'translate3d');
 
-  return function(steps) {
+  return function (steps: any) {
     const params = Object.assign({ timing: DEFAULT_TIMING, delay: 0 }, steps);
 
     return animation(
@@ -106,7 +106,7 @@ export const zoomOut = animation(
 function zoomOutDirection(axis: 'x' | 'y') {
   const translate3d = transformAxis(axis, 'translate3d');
 
-  return function(steps) {
+  return function (steps: any) {
     const params = Object.assign({ timing: DEFAULT_TIMING, delay: 0 }, steps);
 
     return animation(
